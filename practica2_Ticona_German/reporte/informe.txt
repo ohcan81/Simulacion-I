@@ -1,0 +1,82 @@
+1. NOMBRE DEL ESTUDIANTE
+
+Nombre: German Ignacio Ticona Salcedo
+
+2. TÍTULO DEL CASO
+
+Análisis del tiempo de atención en cajas de un supermercado
+
+3. FORMULACIÓN DEL PROBLEMA
+
+En un supermercado, los clientes deben esperar para ser atendidos en las cajas. El tiempo que tarda la atención puede variar de un cliente a otro debido a factores como la cantidad de productos adquiridos y el proceso de cobro.
+
+El problema consiste en analizar el tiempo de servicio de los clientes en una caja de supermercado, utilizando un conjunto de 30 observaciones, con el propósito de conocer el comportamiento de esta variable y detectar posibles valores atípicos.
+
+4. VARIABLE PRINCIPAL
+
+La variable principal de estudio es el tiempo de servicio.
+
+Variable: tiempo de servicio.
+
+Unidad de medida: minutos.
+
+Descripción: representa el tiempo que tarda en ser atendido un cliente en la caja del supermercado.
+
+5. SUPUESTOS
+
+Para realizar el análisis se consideran los siguientes supuestos:
+
+* Los datos corresponden a 30 clientes.
+* El tiempo de servicio se mide en minutos.
+* Cada observación corresponde a un cliente diferente.
+* Los datos utilizados representan un escenario simulado de atención en cajas.
+* Se considera que los datos son suficientes para realizar un análisis preliminar de la variable estudiada.
+
+6. ESTADÍSTICOS DESCRIPTIVOS
+
+A partir de los 30 datos obtenidos se calcularon los siguientes estadísticos:
+
+Cantidad de datos: 30
+Media: 5.11 minutos
+Mediana: 4.08 minutos
+Desviación estándar: 4.26 minutos
+Valor mínimo: 0.02 minutos
+Valor máximo: 13.86 minutos
+
+7. VALORES ATÍPICOS (OUTLIERS) DETECTADOS CON Z-SCORE
+
+Para detectar posibles valores atípicos se utilizó el método de Z-Score.
+
+El Z-Score permite determinar qué tan alejado se encuentra cada dato respecto a la media de la variable.
+
+Se consideró como posible valor atípico un dato cuyo valor absoluto de Z-Score sea mayor que 3.
+
+Resultado:
+
+Cantidad de valores atípicos detectados: 0
+
+Valores atípicos encontrados: No se encontraron valores atípicos.
+
+8. ANÁLISIS DESCRIPTIVO DE LA VARIABLE
+
+El análisis del tiempo de servicio permite observar cómo se comporta el tiempo necesario para atender a los clientes en la caja del supermercado.
+
+La media obtenida representa el tiempo promedio de atención de los clientes. La mediana permite identificar el valor central de las observaciones, mientras que los valores mínimo y máximo muestran el rango de tiempos registrados.
+
+La desviación estándar permite conocer qué tanto varían los tiempos de atención con respecto al promedio.
+
+9. INTERPRETACIÓN TÉCNICA
+
+Los resultados obtenidos permiten evaluar el comportamiento del tiempo de atención en las cajas del supermercado.
+
+Si la desviación estándar presenta un valor bajo, significa que los tiempos de atención son relativamente similares entre los clientes. En cambio, una desviación estándar mayor indica una mayor variabilidad en los tiempos de servicio.
+
+La identificación de valores atípicos mediante Z-Score permite determinar si existen observaciones que se encuentran considerablemente alejadas del comportamiento general de los datos.
+
+10. CONCLUSIÓN
+
+A partir del análisis realizado sobre los 30 tiempos de servicio, se puede obtener una visión preliminar del comportamiento de la atención en las cajas de un supermercado.
+
+Los estadísticos descriptivos permiten conocer el tiempo promedio, el valor central y la variabilidad de los tiempos de atención. Asimismo, el análisis mediante Z-Score permite identificar posibles observaciones atípicas.
+
+En conclusión, el análisis proporciona información útil para comprender el comportamiento del tiempo de servicio y constituye una base para posteriores estudios del sistema de atención en cajas.
